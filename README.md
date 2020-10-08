@@ -2,7 +2,7 @@
 ## 后续持续完善，补充，扩展。目录包括但不限于以下：
 
 1. LM(language model)语言模型 & WV(word vector)词向量  
-  1.1 NNLM  
+  1.1 NNLM(神经网络语言模型)
   1.2 Word2Vec
   
 2. CNN卷积神经网络  
