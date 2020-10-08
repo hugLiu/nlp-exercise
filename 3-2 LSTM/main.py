@@ -56,7 +56,7 @@ for step in range(100):
     plt.plot(steps, y_np.flatten(), 'r-')
     plt.plot(steps, prediction.data.numpy().flatten(), 'b-')
     plt.draw()
-    plt.pause(.05)
+    plt.pause(.1)
 
 plt.ioff()
 plt.show()
