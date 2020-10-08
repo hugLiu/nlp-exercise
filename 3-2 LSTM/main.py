@@ -7,9 +7,9 @@ TIME_STEP = 10
 INPUT_SIZE = 1
 learning_rate = 0.001
 
-class RNN(nn.Module):
+class LstmModel(nn.Module):
     def __init__(self):
-        super(RNN, self).__init__()
+        super(LstmModel, self).__init__()
 
         self.rnn = nn.LSTM(
             input_size=INPUT_SIZE,
@@ -24,7 +24,7 @@ class RNN(nn.Module):
         out = self.out(r_out).squeeze()
         return out, h_state, c_state
 
-rnn = RNN()
+rnn = LstmModel()
 
 criterion = nn.MSELoss()
 optimizer = torch.optim.Adam(rnn.parameters(), lr=learning_rate)
