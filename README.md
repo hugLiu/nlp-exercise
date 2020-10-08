@@ -2,15 +2,15 @@
 ## 后续持续完善，补充，扩展。目录包括但不限于以下：
 
 1. LM(language model)语言模型 & WV(word vector)词向量  
-  1.1 NNLM(神经网络语言模型)
+  1.1 NNLM(神经网络语言模型)  
   1.2 Word2Vec
   
 2. CNN卷积神经网络  
-  2.1 CNN
+  2.1 CNN(卷积神经网络)  
   
 3. RNN循环神经网络  
-  3.1 RNN  
-  3.2 LSTM
+  3.1 RNN(循环神经网络)    
+  3.2 LSTM(Long short-term memory)  
   
 4. Seq2Seq & Attention  
   4.1 Seq2Seq  
